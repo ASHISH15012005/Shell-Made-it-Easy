@@ -25,4 +25,4 @@ read -p "Enter your GitHub repository link: " repo_link
 git remote add origin "$repo_link"
 
 # Pushing your files into the remote repository
-git push -u origin main
+git push -f origin main
